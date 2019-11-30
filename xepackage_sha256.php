@@ -18,3 +18,14 @@ if (isset($_POST["submit"]))
 	}
 }
 ?>
+<!DOCTYPE html>
+<html>
+<body>
+<form action="/test.php" method="post" enctype="multipart/form-data">
+    <h1>Upload XePackage</h1>
+	<h3>Generate XePackage SHA256 Hash</h3>
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload XePackage" name="submit">
+</form>
+</body>
+</html>
